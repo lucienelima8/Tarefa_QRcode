@@ -1,0 +1,47 @@
+/*Importando fonte do google fonts pelo css*/
+/*@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+
+body {
+    /*background-image: linear-gradient(rgba(118, 178, 202, 0.397), white);*/
+
+    background-color: rgba(155, 203, 248, 0.445);
+}
+
+div {
+    text-align: center;
+    padding-top: 10rem;
+
+    
+}
+
+img {
+    width: 12rem;
+    border-radius: 15px;
+    
+
+}
+
+section {
+
+
+}
+
+h1 {
+    font-size: 1rem ;
+
+}
+
+.descrição {
+    font-size: .8rem;
+
+}
