@@ -12,26 +12,55 @@
 
 
 body {
-    /*background-image: linear-gradient(rgba(118, 178, 202, 0.397), white);*/
+    /*background-color: hsl(225, 100%, 98%);*/
+    background-color: hsla(213, 51%, 86%, 0.87);
+    width: 100%; /*largura de 100% da página*/
+    height: 100vh; /*altura total da página*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; /*para escolar da borda*/
 
-    background-color: rgba(155, 203, 248, 0.445);
+
+
+}
+
+/*container com a figura e texto*/
+main { 
+    background-color: #fff; /*fundo branco*/
+    /*background-color: red;*/
+    max-width: 26rem; /*416px*/
+    justify-content: center;
+    border-radius: 1rem;
+    padding-bottom: 1rem;   
+
+
+
 }
 
 div {
-    text-align: center;
-    padding-top: 8rem;
+    /*text-align: center;*/
+    /*padding-top: 8rem;*/
   
     
 }
 
 img {
-    width: 12rem;
-    border-radius: 15px;
+    width: 13rem;
+    /*width: 100%;*/
+    /*border-radius: 1rem 1rem 0 0; /*arredonda só as bordas de cima*/
+    border-radius: 6px;
+    margin: 1rem;
     
 
 }
 
+/*textos abaixo da img*/
 section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 
 }
